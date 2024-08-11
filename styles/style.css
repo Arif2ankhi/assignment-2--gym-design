@@ -484,6 +484,94 @@ background: rgba(255, 255, 255, 0.1);
   }
   
   /* meet our teams style end here  */
+
+
+  /* unique section style starts here  */
+
+
+  .features{
+
+    /* justify-content: space-around; */
+
+    width: 100%;
+
+}
+
+ 
+
+.feature{
+
+    margin-top: 250px;
+
+    background-color: rgba(64, 224, 208, 0.534);
+
+    color: black;
+
+    border-radius: 20px;
+
+    padding: 15px;
+
+    width: 200px;
+
+    height: 80px;
+
+ 
+
+}
+
+ 
+
+.unique-section{
+
+    padding: 3rem 0;
+
+     height:80vh;
+
+    background-image: url(/images/swiming3\ \(1\).jpg);
+
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+}
+
+ 
+
+.unique-title{
+
+    font-size: 4rem;
+
+    font-weight: bold;
+
+    color:rgb(247, 7, 155);
+
+    padding:20px;
+
+    margin-top: 200px;
+
+ 
+
+}
+
+ 
+
+.flex-space-around{
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+   
+
+}
+
+
+
+  /* unique section style ends here  */
   
   
 
