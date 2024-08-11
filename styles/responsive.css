@@ -145,9 +145,16 @@
     width: 350px;
     padding: 15px 15px;
    
-
  }
 
+ .background-image{
+    max-width: 576px;
+ }
+
+ .features{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+ }
  
 
  .footer-container{

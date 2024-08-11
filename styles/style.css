@@ -435,7 +435,7 @@ background: rgba(255, 255, 255, 0.1);
     max-width: 1300px;
     margin: 0 auto;
     margin-top: 30px;
-   
+    margin-bottom: 40px;
 
   }
 
@@ -488,12 +488,19 @@ background: rgba(255, 255, 255, 0.1);
 
   /* unique section style starts here  */
 
+    .unique-section{
+        max-width: 100%;
+        margin: 0 auto;
+        border: 1px solid red ;
+        border-radius: 15px;
+    }
+
 
   .features{
 
     /* justify-content: space-around; */
 
-    width: 100%;
+    /* width: 100%; */
 
 }
 
@@ -527,7 +534,7 @@ background: rgba(255, 255, 255, 0.1);
 
      height:80vh;
 
-    background-image: url(/images/swiming3\ \(1\).jpg);
+    background-image: url(/images/Old_Lady.jpg);
 
     background-attachment: fixed;
 
