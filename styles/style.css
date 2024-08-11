@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+CU:wght@100..400&display=swap');
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: black; 
+}
+
+/* shared styles  */
+
+.display-flex {
+    display: flex;
+}
+.text-gray{
+    color: rgb(255, 255, 255);
+}
+
+.text-light-gray{
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.bg-light {
+    /* background-color: black; */
+}
+
+.btn-primary {
+    background-color: orangered;
+
+    color: white;
+    padding: 10px 15px;
+    font-weight: 600;
+    border-radius: 25px;
+    border: 0;
+
+}
+
+header{
+    max-width:100%;
+   background: linear-gradient(
+    180.00deg, rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%);  
+
+}
+
+
+ /* navbar related style  starts  */
+
+#fitness{
+    color: orangered;
+    font-weight: 900;
+    font-size: 2.25rem;
+    margin-left: 140px;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+    list-style: none;
+    margin-left: 30px;
+    border: none;
+}
+
+.nav-links{
+    gap: 65px;
+    text-decoration: none;
+    font-weight: 400;
+    margin-right:60px;
+    border:1px solid rgba(255, 255, 225, 0.020);
+    border-radius: 20px; 
+    padding:6px 0px;   
+}
+
+
+
+.ham-burger-menu{
+    display: none;
+    margin-right: 60px;
+    
+
+}
+
+/* navbar  section  styles ends here  */
+
+/* banner section  styles starts here  */
+
+.banner-content{
+    position: relative;
+    margin-left: 60px;
+}
+
+.banner-text {
+    width: 50%;
+    margin-left: 80px;
+    
+
+}
+.banner-text > h4 {
+    line-height: 75px;
+}
+
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 30px;
+
+}
+
+.banner-description{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.banner-image { 
+ width: 50%;
+margin-left:28%;
+top: 180px;
+
+}
+ 
+
+
+@font-face{
+    font-family:miama;
+    src: url(../font/Miama-Regular.ttf);
+    font-style: normal;
+    font-weight: 800;
+}
+
+   
+.custom-font{
+    font-family: miama;
+    font-weight: 400;
+    font-size: 4rem;   
+}
+
+.download-now{
+    background-color: #070707;
+    color: white;
+    padding: 10px 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin-left: 15px;
+}
+
+.number-of-videos{
+    position: absolute;
+    width: 190px;
+    height: 98px;
+    padding: 15PX 10PX;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    background: rgba(48, 48, 48, 0.54);
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    right:28%;
+    bottom:10%;
+}
+   
+
+
+.workout-videos{
+    position: absolute;
+    width: 190px;
+    height: 98px;
+    padding: 15PX 10PX;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    background: rgba(48, 48, 48, 0.54);
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    right:10%;
+    bottom:55%;
+}
+
+.video-sign{
+ position: relative;
+  color: orangered;
+ margin-right: 5px;
+ border-radius: 50%;
+ top: 30%;
+ 
+   
+    
+}
+
+.vdo-number{
+
+    font-size: 1.5rem;
+    font-weight: 900;
+    
+    
+}
+
+.vdo-tutorial{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+    margin-left: 45px;
+}
+
+.total-number{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.free-videos{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+
+}
+
+/* header ends here  */
