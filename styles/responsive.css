@@ -158,14 +158,32 @@
 
 /* Unique responsive start here  */
 
+        .features{
+            /* margin-left: 5px; */
+        }
+       
 
- 
+        .feature{
+            background-color: rgba(152, 64, 224, 0.562);
+            border-radius: 20px;
+            padding: 15px;
+            width: 120px;
+            height: 70px;
+            justify-items: center;
+            align-items: center;
+            justify-content: space-around;
+        }
 
+        .feature-icon{
+            font-size: 1.5rem;
+            align-items:center;
+        
+        
+        }
 
- .features{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
- }
+        .icon-description{
+            font-size: 1rem;
+        }
  
 
  .unique-title{
