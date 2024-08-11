@@ -71,7 +71,7 @@ header{
     text-decoration: none;
     font-weight: 400;
     margin-right:60px;
-    border:1px solid rgba(255, 255, 225, 0.020);
+    border:1px solid rgba(255, 255, 225, 0.050);
     border-radius: 20px; 
     padding:6px 0px;   
 }
@@ -218,3 +218,63 @@ top: 180px;
 }
 
 /* header ends here  */
+
+/* change your habit style starts here  */
+
+.change-your-habits{
+    max-width:80%;
+    height: 100%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-top: 15px;
+    /* margin-bottom: 25px; */
+}
+
+.habit-headline{
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.habit-para{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.habits-list{
+   text-align: center;
+  
+   
+}
+
+.habit-card{
+    margin-left: 20px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto
+}
+
+.habit-card > img{
+    border-radius: 50%;
+}
+
+.habit-card > habit-title, habit-description{
+   text-align: center;
+   /* align-items: center; */
+   
+   
+}
+
+.habit-title{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 2px;
+   
+}
+.habit-habit-description{
+    font-size: 0.7rem;
+    font-weight: normal;
+}
+
+/* change your habit style end here  */
+
