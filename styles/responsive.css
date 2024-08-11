@@ -154,25 +154,19 @@
 
 
 
- /* meet our team style responsive */
+ /* meet our team style  end responsive */
 
- .background-image{
-    max-width: 576px;
- }
+/* Unique responsive start here  */
+
+
  
 
- .unique-title{
-    font-size: 8vw;
- }
 
  .features{
-    display: flex;
-   flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
  }
  
- .unique-container{
-    max-width: 40%;
- }
 
  .unique-title{
 
@@ -200,7 +194,7 @@
 }
 
 
- }
+}
 
 
 
