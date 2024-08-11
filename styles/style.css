@@ -224,10 +224,9 @@ top: 180px;
 .change-your-habits{
     max-width:80%;
     height: 100%;
-    /* border: 1px solid red; */
     margin: 0 auto;
     margin-top: 15px;
-    /* margin-bottom: 25px; */
+    margin-bottom: 40px;
 }
 
 .habit-headline{
@@ -277,4 +276,44 @@ top: 180px;
 }
 
 /* change your habit style end here  */
+
+/* Run extra mile  style starts here  */
+
+.extra-mile{
+    max-width:80%;
+    height: 100%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: rgb(34, 34, 34)
+}
+
+.extra-mile-container{
+    border-radius: 15px;
+    justify-content: space-around;  
+    
+}
+
+.run-title{
+   font-size: 1.8rem;
+   font-weight: 900;
+   margin-bottom: 20px;
+}
+.run-para {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.run-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+   border-radius: 20px;
+   
+}
+
+/* Extra mile ends here   */
 
