@@ -325,7 +325,7 @@ top: 180px;
      margin-top: 50px;
     background: rgb(34, 34, 34);
     margin-bottom: 5px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 .table-title{
     margin-left: 80px;
@@ -359,13 +359,13 @@ td, th{
     height:auto;
     flex-wrap: wrap;
     gap: 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     
 }
 
 .bmi-form{
     width: 50%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin-bottom: 10px;
 }
 

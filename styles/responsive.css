@@ -47,6 +47,8 @@
         font-weight: 400;
         font-size: 2rem;   
     }
+    
+
     .banner-content,
     .habit-container,
     .extra-mile-container,
@@ -80,16 +82,17 @@
     font-size: 1rem;
     right:18%;
     bottom:47%;
+
 }
 
 .extra-mile{
-    max-width: 80%;
+    max-width: 85%;
     align-items: center;
 }
 
 
 .run-title{
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: 900;
    
 }
@@ -136,6 +139,12 @@
  }
 
  /* meet our team responsive style */
+
+ .mt-title{
+    font-size: 2rem;
+    font-weight: 900;
+
+ }
  
  .grid-container{
     display: grid;
@@ -158,10 +167,7 @@
 
 /* Unique responsive start here  */
 
-        .features{
-            /* margin-left: 5px; */
-        }
-       
+        
 
         .feature{
             background-color: rgba(152, 64, 224, 0.562);
@@ -185,12 +191,9 @@
             font-size: 1rem;
         }
  
-
  .unique-title{
 
-    font-size: 2rem;
-
-    
+    font-size: 2rem;   
 }
 
 /* uniques style end */
