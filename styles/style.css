@@ -29,12 +29,11 @@ body{
 
 .btn-primary {
     background-color: orangered;
-
     color: white;
     padding: 10px 15px;
     font-weight: 600;
     border-radius: 25px;
-    border: 0;
+    border:none;
 
 }
 
@@ -42,7 +41,7 @@ header{
     max-width:100%;
    background: linear-gradient(
     180.00deg, rgb(17, 17, 17),
-    rgba(119, 119, 119, 0) 100%);  
+    rgba(119, 119, 119, 0) 100%); 
 
 }
 
@@ -53,7 +52,7 @@ header{
     color: orangered;
     font-weight: 900;
     font-size: 2.25rem;
-    margin-left: 140px;
+    margin-left: 60px;
 }
 .navbar{
     justify-content: space-between;
@@ -91,12 +90,13 @@ header{
 
 .banner-content{
     position: relative;
-    margin-left: 60px;
+    margin: 0 auto;
+    
 }
 
 .banner-text {
     width: 50%;
-    margin-left: 80px;
+    margin-left: 60px;
     
 
 }
@@ -121,6 +121,7 @@ header{
  width: 50%;
 margin-left:28%;
 top: 180px;
+border: 1ps solid blue;
 
 }
  
@@ -146,7 +147,7 @@ top: 180px;
     padding: 10px 15px;
     font-size: 0.8rem;
     font-weight: 600;
-    border-radius: 50px;
+    border-radius: 25px;
     border: 1px solid white;
     margin-left: 15px;
 }
@@ -163,8 +164,6 @@ top: 180px;
     right:28%;
     bottom:10%;
 }
-   
-
 
 .workout-videos{
     position: absolute;
@@ -191,9 +190,8 @@ top: 180px;
 }
 
 .vdo-number{
-
-    font-size: 1.5rem;
-    font-weight: 900;
+ font-size: 1.5rem;
+font-weight: 900;
     
     
 }
@@ -226,7 +224,7 @@ top: 180px;
     height: 100%;
     margin: 0 auto;
     margin-top: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .habit-headline{
@@ -320,24 +318,24 @@ top: 180px;
 /* BMI CALCULATOR STYLE START HERE  */
 .bmi-calculator{
     max-width: 100%;
-    /* width:100%; */
-    /* height: 100%; */
-     margin-top: 50px;
+     margin-top: 20px;
     background: rgb(34, 34, 34);
     margin-bottom: 5px;
-    /* border: 1px solid green; */
+  
+    
 }
 .table-title{
     margin-left: 80px;
+    margin-top: 40px;
 }
 table{
     width:320px;
     height: 220px;
-    /* padding: 20px; */
-    /* margin: 0 auto; */
     border-collapse: collapse;
     margin-left: 20px;
     align-items: center;
+    margin-top: 20px;
+
 }
     
 
@@ -348,25 +346,20 @@ td, th{
 }
 
 .bmi-form{
+    width: 50%;
     margin-left: 100px;
-    width: 300px;
+    padding:  20px;
 }
 
-/* edited form style */
 .form-container{
-    padding: 20px 10px;
+    padding: 10px 0px;
     width: 60%;
     height:auto;
     flex-wrap: wrap;
     gap: 20px;
-    /* border: 1px solid red; */
-    
-}
+    /* margin-bottom: 10px; */
 
-.bmi-form{
-    width: 50%;
-    /* border: 2px solid blue; */
-    margin-bottom: 10px;
+    
 }
 
 .bg-col{
@@ -378,6 +371,7 @@ td, th{
     color: rgba(255, 255, 255, 0.6);
     background: rgba(255, 255, 255, 0.1);
     text-align: left;
+
 }
 
 .input {
@@ -389,17 +383,14 @@ color: rgba(255, 255, 255, 0.3);
 background: rgba(255, 255, 255, 0.1);
 }
 
-.activity-factor {
+.inpot, .activity-factor {
     width: 300px;
 
 }
 
 
-.text-area{
-    width: 100%;
-}
 .calculate{
-    margin-left: 15px;
+    margin-right: 50px;
     cursor: pointer;
 }
 
@@ -414,7 +405,7 @@ background: rgba(255, 255, 255, 0.1);
     }
 
     .form-para{
-        font-size: 12px;
+        font-size: 1rem;
         margin-left: 5px;
     }
  .back-color {
@@ -423,7 +414,7 @@ background: rgba(255, 255, 255, 0.1);
   
   }
   #activity-factor{
-     grid-column: 1 / span 2 ;
+     grid-column: 1/span 2 ;
    
   }
 
@@ -435,7 +426,7 @@ background: rgba(255, 255, 255, 0.1);
     max-width: 1300px;
     margin: 0 auto;
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 
   }
   .mt-title{
@@ -555,14 +546,13 @@ background: rgba(255, 255, 255, 0.1);
 }
 
    
-/* edited unique section end  */
+/*  unique section end  */
 
 
 footer{
     width: 100%;
-    /* height: 120%; */
-     background: rgb(34, 34, 34);
-     margin-top: 30px;
+    background: rgb(34, 34, 34);
+     margin-top: 20px;
 }
 .footer-title{
  color:orangered;
@@ -591,7 +581,7 @@ padding: 10px 20px;
 
 .copy-right{
  text-align: center;
- margin-bottom: 10px;
+
 }
 
 .horizontal-line{

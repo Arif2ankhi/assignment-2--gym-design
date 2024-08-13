@@ -1,5 +1,8 @@
 @media screen and (max-width: 576px) {
-   
+    #fitness{
+        margin-left: 40px;
+    }
+    
     .nav-links{
         display: none;
     }
@@ -30,13 +33,22 @@
 
     }
 
+    .banner-text{
+        width: 85%;
+        margin-left: 30px;
+    }
         
     .banner-title{
-        font-size: 2.5rem;
+        font-size: 3rem;
+        font-weight: 900;
+        /* font-size: 1.8rem; */
+        /* margin-right: 20px; */
+        
 
     }
     .banner-description{
-        font-size: 1rem;
+        font-size: o.8rem;
+    
     }
     .banner-text > h4 {
         line-height: 45px;
@@ -64,8 +76,8 @@
 
 .number-of-videos{
     position: absolute;
-    width: 170px;
-    height: 88px;
+    width: 150px;
+    height: 80px;
     border-radius: 16px;
     font-size: 1rem;
     right: 62%;
@@ -76,8 +88,8 @@
 
 .workout-videos{
     position: absolute;
-    width: 170px;
-    height: 88px;
+    width: 150px;
+    height: 80px;
     border-radius: 16px;
     font-size: 1rem;
     right:18%;
@@ -85,30 +97,38 @@
 
 }
 
+.habit-headline{
+    font-size: 2rem;
+}
+
 .extra-mile{
     max-width: 85%;
+    margin: 0 auto;
     align-items: center;
+    justify-content: center;
 }
 
 
 .run-title{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 900;
+    margin-left: 40px;
    
 }
 
 .run-para {
     
-    font-size:1rem ;
+    font-size:0.9rem ;
 }
 
 .join-now{
-    width: 350px;
+    width: 300px;
     height: 70px;
     margin-bottom: 40px;
     font-size: 1.5rem;
     font-weight: 800;
     margin: 50px;
+    border-radius: 40px;
 }
 
 .extra-mile-container{
@@ -134,7 +154,12 @@
   }
  .form-container{
     max-width: 100%;
-    display: flex;
+    /* display: flex; */
+
+ }
+
+ .bmi-form{
+    width: 350px;
 
  }
 
@@ -149,7 +174,7 @@
  .grid-container{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin-left: 90px;
+    margin-left: 20px;
     width: 350px;
     padding: 20px 15px;
    
@@ -196,6 +221,7 @@
  .footer-container{
     width: 100%;
     display: grid;
+    
    
  }
 
@@ -206,7 +232,7 @@
  }
  
  .horizontal-line{
-    width: 60%;
+    width: 80%;
 }
 
 
